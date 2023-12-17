@@ -1,0 +1,245 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  color: #1f1f1f;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  background-color: #30343f;
+  height: 144px;
+  left: 0.000030517578125px;
+  padding: 3.6rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nabvar__logo {
+  max-width: 300px;
+  /* width: 270.92px;
+    height: 30.31px;
+    top: 17.71px;
+    left: 101.08px;*/
+}
+
+.navbar__menu{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar__link {
+  color: #ffffff;
+  font-size: 1.8em;
+  padding: 0.8rem 1.6rem;
+  display: inline-block;
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar__link:hover {
+  background-color: rgba(255, 51, 51, 0.9);
+}
+
+
+main {
+  text-align: center;
+  max-width: 1200px;
+  font-family: "Inter", sans-serif;
+  margin: 12.8rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 3.6rem;
+  padding: 5%;
+}
+
+
+h2 {
+  display: block;
+  font-size: 42px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.register__subtitle{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  font-family: "Raleway", sans-serif;
+}
+
+.register__form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 3.6rem;
+  
+}
+
+.form__box--grid{
+display:flex;
+justify-content: space-between;
+margin-bottom: 20px;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.04em;
+width: 457px;
+height: 29px;
+top: 339px;
+left: 491px;
+
+}
+
+
+.form__label {
+  /*display: flex;*/
+  text-align: start;
+  color: #000000;
+  margin: 0 auto ;
+}
+
+
+form__input:not([type="range"]):not([type="color"]):not([type="button"]):not(
+  [type="reset"]
+):not([type="submit"]):not([type="file"]) {
+writing-mode: horizontal-tb !important;
+}
+
+
+.i-uno{
+  margin-left: 35%;
+  display: flex;
+  padding: 1rem 0.5rem;
+  border: none;
+  flex-grow: 1;
+  border-bottom: 2px solid #ff3333;
+  font-size: 1.8em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  justify-content: space-between;
+}
+
+
+ .i-dos{
+  margin-left: 35%;
+  display: flex;
+  padding: 1rem 0.5rem;
+  border: none;
+  flex-grow: 1;
+  border-bottom: 2px solid #ff3333;
+  font-size: 1.8em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  justify-content: space-between;
+ }
+
+ .i-tres{
+  margin-left:45%;
+  display: flex;
+  padding: 1rem 0.5rem;
+  border: none;
+  flex-grow: 1;
+  border-bottom: 2px solid #ff3333;
+  font-size: 1.8em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  justify-content: space-between;
+ }
+
+ .i-cuatro, .i-cinco{
+  margin-left: 25%;
+  display: flex;
+  padding: 1rem 0.5rem;
+  border: none;
+  flex-grow: 1;
+  border-bottom: 2px solid #ff3333;
+  font-size: 1.8em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  justify-content: space-between;
+ }
+
+
+ .form__btn {
+  background-color: #ff3333;
+  width: 103px;
+  height: 39.06px;
+  color: #ffffff;
+  border: 2px solid #ff3333;
+  font-size: 12px;
+}
+
+
+.form__submission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.checkbox {
+  display: flex;
+  font-size: 18px;
+}
+
+.form__link {
+  color: #1d84b5;
+}
+
+footer {
+  background-color: #30343f;
+  padding: 6.8rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer__copy{
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.8em;
+}
+

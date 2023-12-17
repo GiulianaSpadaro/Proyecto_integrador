@@ -1,0 +1,127 @@
+/* SHOP PAGE */
+
+#shop{
+    display: flex;
+    gap: var(--spacing-28);
+    font-family: var(--base-font);
+    margin: var(--spacing-68) auto;
+}
+
+.shop__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: var(--spacing-36);
+}
+
+.shop__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-28);
+}
+
+
+/* Pagination*/
+
+.shop-filters{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-28);
+}
+
+.filters-title{
+    font-size: var(--font-medium);
+    font-family: inherit;
+    font-weight: 500;
+    
+}
+
+.filters-search{
+    display: flex;
+   flex-direction: column;
+    gap: var(--spacing-12);
+}
+
+
+.filters-search input, .filters-order select {
+    border-radius: 6px;
+    border: 2px solid var(--dark-solid);
+    font-size: var(--font-medium);
+    padding: var(--spacing-8);
+}
+
+.filter-price input {
+    width: 70px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: var(--font-medium);
+    border: 2px solid var(--dark-solid);
+    padding: 4px var(--spacing-8);
+}
+
+.filter-price label {
+    font-size: var(--font-small);
+    font-weight: 500;
+}
+
+.filters-checks {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+
+.filters-checks div {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-8);
+    font-weight: 500;
+    font-size: var(--font-medium);
+}
+
+
+
+/* Pagination */
+
+.pagination{
+   display: flex;
+   justify-content: center;
+   gap: var(--spacing-12);
+   
+   
+}
+
+.pagination__link{
+    padding: var(--spacing-12) var(--spacing-16);
+    font-family: inherit;
+    font-size: medium;
+    font-weight: 700;
+    border: 2px solid var(--dark-300);
+    border-radius: 12%;
+    transition: all .3s ease-in-out;
+}
+
+.pagination__link:hover{
+    background-color: var(--primary-solid);
+    border-color: var(--primary-solid);
+    color: #fafaff;
+
+}
+
+.pagination__link--selected{
+    border:2px solid var(--primary-solid);
+    color: var(--primary-solid);
+}
+
+.pagination__link--selected:hover{
+    color: #fafaff;
+}
+
+.signo{
+    color: var(--dark-300);
+}
+
+.signo:hover{
+    color: #fafaff;
+}
+
+
